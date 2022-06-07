@@ -1,0 +1,90 @@
+/* global */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+:root{
+--ff-primary: "Roboto", sans-serif;
+ --ff-secondary: "Open Sans", sans-serif;
+}
+
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: azure;
+   /* font-family: var(--ff-secondary); */
+
+}
+a{
+    text-decoration: none;
+}
+/* end of global */
+
+h1{
+    margin-top: 10px;
+    margin-left: 12px;
+    font-family:var(--ff-primary) ;
+}
+
+
+img{
+    width:100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    margin: 35px 15px;
+    background-color: beige;
+    border-radius: 10px;
+    width: 25%;
+    box-shadow: 10px 10px 20px black;
+}
+
+.fa-star{
+    color: darkgoldenrod;
+}
+
+span{
+    padding-left: 4px;
+}
+
+.info-container{
+    padding-left: 15px;
+}
+
+
+/* mobile responsiveness */
+@media (max-width:520px){
+    h1{
+        margin-left: 175px;
+        margin-bottom:10px ;
+        font-size: 20px;
+    }
+    .cards-container{
+        flex-direction: column;
+        
+    }
+    .card{
+    margin-top: 5px;
+    width: 70%;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
